@@ -126,6 +126,7 @@ h3 {
     flex-direction: column;
     gap: 30px;
     width: 300px;
+    height: 100%;
     padding: 20px;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(10, 10, 10, 0.8212535014005602) 100%);
     color: whitesmoke;
@@ -137,7 +138,7 @@ header {
 }
 
 .avatar {
-    width: 100%;
+    width: 250px;
     height: 250px;
     border-radius: 50%;
     overflow: hidden;
@@ -151,4 +152,10 @@ header {
 
 .title {
     font-size: 18px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
