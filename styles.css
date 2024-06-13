@@ -9,6 +9,7 @@ body {
     padding: 0;
     color: #333;
     font-size: 14px;
+    line-height: 1.4;
 }
 
 * {
@@ -53,12 +54,6 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-}
-
-svg {
-    width: 24px;
-    height: 24px;
-    display: block;
 }
 
 address {
@@ -135,10 +130,10 @@ header {
     overflow: hidden;
     }
 
-.avatar img {
-    width: 100%;
-    height: auto;
-    display: block;
+.technologies-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .title {
