@@ -151,6 +151,13 @@ header {
     padding: 8px;
 }
 
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px;
+}
+
 .info {
     display: flex;
     flex-direction: column;
