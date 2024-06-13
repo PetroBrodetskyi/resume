@@ -128,7 +128,15 @@ header {
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
-    }
+    display: inline-block;
+    border: 5px solid #ffffff;
+}
+
+.avatar img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 .technologies-list {
     display: flex;
