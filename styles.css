@@ -129,6 +129,7 @@ header {
     border-radius: 50%;
     overflow: hidden;
     display: inline-block;
+    background-color: #ffffff;
     border: 5px solid #ffffff;
 }
 
