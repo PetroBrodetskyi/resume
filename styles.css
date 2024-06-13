@@ -84,22 +84,13 @@ h3 {
     margin: 0;
 }
 
-.contact-info {
-    margin-bottom: 20px;
-}
-
 .section {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
-.section h2 {
-    background: #f4f4f4;
-    padding: 10px;
-}
 
-.section p {
-    margin: 10px 0;
-}
 
 @media print {
     body {
@@ -124,11 +115,11 @@ h3 {
 .sidebar {
     display: flex;
     flex-direction: column;
+    min-width: 240px;
     gap: 30px;
-    width: 300px;
     height: 100%;
     padding: 20px;
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(10, 10, 10, 0.8212535014005602) 100%);
+    background: linear-gradient(90deg, rgba(13, 13, 14, 0.888) 0%, rgba(97, 97, 97, 0.821) 100%);
     color: whitesmoke;
 }
 
@@ -138,8 +129,8 @@ header {
 }
 
 .avatar {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     overflow: hidden;
     }
@@ -154,8 +145,27 @@ header {
     font-size: 18px;
 }
 
+.info-title {
+    font-size: 18px;
+    background-color: rgb(246, 246, 246);
+    padding: 8px;
+}
+
 .info {
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+.contact-flex {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    fill: whitesmoke;
 }
