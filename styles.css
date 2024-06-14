@@ -1,15 +1,11 @@
-@page {
-    size: A4;
-    margin: 20mm;
-}
-
-body {
+html, body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
     font-size: 14px;
     line-height: 1.4;
+    height: 100vh;
 }
 
 * {
@@ -85,19 +81,6 @@ h3 {
     gap: 4px;
 }
 
-
-
-@media print {
-    body {
-        width: 210mm;
-        height: 297mm;
-    }
-
-    .container {
-        padding: 10mm;
-    }
-}
-
 .container {
     display: flex;
     gap: 20px;
@@ -105,17 +88,19 @@ h3 {
     max-width: 210mm;
     margin: 0 auto;
     padding: 20px;
+    
 }
 
 .sidebar {
     display: flex;
     flex-direction: column;
     min-width: 240px;
-    gap: 30px;
+    gap: 22px;
     height: 100%;
     padding: 20px;
-    background: linear-gradient(90deg, rgba(13, 13, 14, 0.888) 0%, rgba(97, 97, 97, 0.821) 100%);
+    background: linear-gradient(90deg, rgba(13, 13, 14, 0.9) 0%, rgba(97, 97, 97, 0.85) 100%);
     color: whitesmoke;
+
 }
 
 header {
@@ -162,10 +147,16 @@ header {
     padding: 8px;
 }
 
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .info {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 14px;
 }
 
 .contact-flex {
