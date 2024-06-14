@@ -84,9 +84,22 @@ h3 {
 
 .container {
     display: flex;
-    width: 100%;
-    max-width: 210mm;
-    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 767px) {
+    .container {
+            max-width: 380px;
+            flex-direction: column;
+        }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+            width: 100%;
+            max-width: 210mm;
+            margin: 0 auto;
+        }
 }
 
 .sidebar {
