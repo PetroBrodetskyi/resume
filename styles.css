@@ -1,16 +1,16 @@
 html,
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    font-size: 14px;
-    line-height: 1.4;
-    height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.4;
+  height: 100vh;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 p,
@@ -21,164 +21,168 @@ h4,
 h5,
 h6,
 body {
-    margin: 0;
+  margin: 0;
 }
 
 ul {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: underline;
-    color: currentColor;
+  text-decoration: underline;
+  color: currentColor;
 }
 
 button {
-    font-family: inherit;
-    background-color: transparent;
-    color: inherit;
-    border: none;
-    cursor: pointer;
-    padding: 0;
+  font-family: inherit;
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 h1,
 h2,
 h3 {
-    margin: 0;
+  margin: 0;
 }
 
 .section {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .container {
-    display: flex;
+  display: flex;
 }
 
-
 @media screen and (max-width: 767px) {
-    .container {
-            max-width: 420px;
-            flex-direction: column;
-        }
+  .container {
+    max-width: 420px;
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-            width: 100%;
-            max-width: 210mm;
-            margin: 0 auto;
-        }
+  .container {
+    width: 100%;
+    max-width: 210mm;
+    margin: 0 auto;
+  }
 }
 
 .sidebar {
-    display: flex;
-    flex-direction: column;
-    min-width: 254px;
-    min-height: 100vh;
-    gap: 22px;
-    padding: 26px;
-    background: linear-gradient(90deg, rgba(13, 13, 14, 0.9) 0%, rgba(97, 97, 97, 0.85) 100%);
-    color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  min-width: 254px;
+  min-height: 100vh;
+  gap: 22px;
+  padding: 26px;
+  background: linear-gradient(
+    90deg,
+    rgba(13, 13, 14, 0.9) 0%,
+    rgba(97, 97, 97, 0.85) 100%
+  );
+  color: whitesmoke;
 }
 
 header {
-    text-align: center;
+  text-align: center;
 }
 
 .avatar {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: inline-block;
-    background-color: #ffffff;
-    border: 5px solid #ffffff;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  background-color: #ffffff;
+  border: 5px solid #ffffff;
 }
 
 .avatar img {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .technologies-list {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .title {
-    font-size: 18px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .info-title {
-    font-size: 18px;
-    background-color: rgb(246, 246, 246);
-    padding: 8px;
+  font-size: 18px;
+  background-color: rgb(246, 246, 246);
+  padding: 8px;
 }
 
 .info-container {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px;
 }
 
 .projects-list {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    height: 100vh;
-    padding: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100vh;
+  padding: 10px 26px;
 }
 
 .contact-flex {
-    display: flex;
-    gap: 4px;
-    align-items: center;
+  display: flex;
+  gap: 4px;
+  align-items: center;
 }
 
 .icon {
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    fill: whitesmoke;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  fill: whitesmoke;
 }
